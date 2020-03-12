@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_231" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.ss.vstad.products.Product">
+    <void property="brand">
+     <string>apple</string>
+    </void>
+    <void property="productType">
+     <string>cell phone</string>
+    </void>
+    <void property="productionDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2018-05-02</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.Product">
+    <void property="brand">
+     <string>audi</string>
+    </void>
+    <void property="productType">
+     <string>automobile</string>
+    </void>
+    <void property="productionDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2005-05-02</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.FoodProduct">
+    <void property="brand">
+     <string>cheese club</string>
+    </void>
+    <void property="foodName">
+     <string>cheese</string>
+    </void>
+    <void property="productType">
+     <string>milk product</string>
+    </void>
+    <void property="productionDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2019-05-02</string>
+     </object>
+    </void>
+    <void property="suitabilityDuration">
+     <int>40</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.Product">
+    <void property="brand">
+     <string>lenovo</string>
+    </void>
+    <void property="productType">
+     <string>laptop</string>
+    </void>
+    <void property="productionDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2015-05-02</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.FoodProduct">
+    <void property="brand">
+     <string>lvivske</string>
+    </void>
+    <void property="foodName">
+     <string>beer</string>
+    </void>
+    <void property="productType">
+     <string>alcohol</string>
+    </void>
+    <void property="productionDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2020-01-02</string>
+     </object>
+    </void>
+    <void property="suitabilityDuration">
+     <int>20</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.FoodProduct">
+    <void property="brand">
+     <string>sandora</string>
+    </void>
+    <void property="foodName">
+     <string>juice</string>
+    </void>
+    <void property="productType">
+     <string>drink</string>
+    </void>
+    <void property="productionDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2020-01-15</string>
+     </object>
+    </void>
+    <void property="suitabilityDuration">
+     <int>30</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.FoodProduct">
+    <void property="brand">
+     <string>truskawetska</string>
+    </void>
+    <void property="foodName">
+     <string>soda water</string>
+    </void>
+    <void property="productType">
+     <string>water</string>
+    </void>
+    <void property="productionDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2019-10-01</string>
+     </object>
+    </void>
+    <void property="suitabilityDuration">
+     <int>180</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

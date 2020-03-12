@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_221" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.ss.vstad.products.Product">
+    <void property="brand">
+     <string>lenovo</string>
+    </void>
+    <void property="productType">
+     <string>laptop</string>
+    </void>
+    <void property="productionDate">
+     <string>02.05.2015</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.FoodProduct">
+    <void property="brand">
+     <string>pepsi vanilla</string>
+    </void>
+    <void property="foodName">
+     <string>pepsi</string>
+    </void>
+    <void property="productType">
+     <string>drinks</string>
+    </void>
+    <void property="productionDate">
+     <string>01.01.2016</string>
+    </void>
+    <void property="suitabilityDuration">
+     <int>180</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.Product">
+    <void property="brand">
+     <string>audi</string>
+    </void>
+    <void property="productType">
+     <string>automobile</string>
+    </void>
+    <void property="productionDate">
+     <string>02.05.2005</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.Product">
+    <void property="brand">
+     <string>apple</string>
+    </void>
+    <void property="productType">
+     <string>cell phone</string>
+    </void>
+    <void property="productionDate">
+     <string>02.05.2018</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.FoodProduct">
+    <void property="brand">
+     <string>cheeze club</string>
+    </void>
+    <void property="foodName">
+     <string>cheeze</string>
+    </void>
+    <void property="productType">
+     <string>milk product</string>
+    </void>
+    <void property="productionDate">
+     <string>02.05.2019</string>
+    </void>
+    <void property="suitabilityDuration">
+     <int>40</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.ss.vstad.products.FoodProduct">
+    <void property="brand">
+     <string>lvivske</string>
+    </void>
+    <void property="foodName">
+     <string>beer</string>
+    </void>
+    <void property="productType">
+     <string>drinks</string>
+    </void>
+    <void property="productionDate">
+     <string>02.01.2020</string>
+    </void>
+    <void property="suitabilityDuration">
+     <int>20</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

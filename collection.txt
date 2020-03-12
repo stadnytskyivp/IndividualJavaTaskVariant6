@@ -1,0 +1,14 @@
+
+Product{productType='cell phone', brand='apple', productionDate='2018-05-02'}
+
+Product{productType='automobile', brand='audi', productionDate='2005-05-02'}
+
+FoodProduct{productType='milk product', brand='cheese club', productionDate='2019-05-02', foodName='cheese', suitabilityDuration=40}
+
+Product{productType='laptop', brand='lenovo', productionDate='2015-05-02'}
+
+FoodProduct{productType='alcohol', brand='lvivske', productionDate='2020-01-02', foodName='beer', suitabilityDuration=20}
+
+FoodProduct{productType='drink', brand='sandora', productionDate='2020-01-15', foodName='juice', suitabilityDuration=30}
+
+FoodProduct{productType='water', brand='truskawetska', productionDate='2019-10-01', foodName='soda water', suitabilityDuration=180}

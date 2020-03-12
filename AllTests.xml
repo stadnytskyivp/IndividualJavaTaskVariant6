@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/SoftServe/University/Materials/Java/HW/HW1/src/test/java/com/ss/vstad/CollectionTest.java">
+        <classes>
+            <class name="com.ss.vstad.CollectionTest">
+                <methods>
+                    <include name="deserializationTest"/>
+                    <include name="SortByProductTypeTest"/>
+                    <include name="SortByBrandTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/SoftServe/University/Materials/Java/HW/HW1/src/test/java/com/ss/vstad/FoodProductTest.java">
+        <classes>
+            <class name="com.ss.vstad.FoodProductTest">
+                <methods>
+                    <include name="expirationDateTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/SoftServe/University/Materials/Java/HW/HW1/src/test/java/com/ss/vstad/ProductTest.java">
+        <classes>
+            <class name="com.ss.vstad.ProductTest">
+                <methods>
+                    <include name="getAgeTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
